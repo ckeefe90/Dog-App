@@ -4,8 +4,19 @@ body {
 }
 
 .container {
-    max-width: 500px;
     margin: 0 auto;
+}
+
+.results-img {
+    max-width: 200px;
+    margin: auto 0;
+}
+
+.results {
+    width: 100%;
+    display: flex;
+    align-items: middle;
+    flex-wrap: wrap;
 }
 
 .hidden {
